@@ -1,0 +1,12 @@
+#splash{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    /* display: inline-block; */
+    margin: 0 auto;
+    padding: 400px 0;
+}
