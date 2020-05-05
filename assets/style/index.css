@@ -1,7 +1,13 @@
+/* *{
+    background-color: rgba(0,0,0,0);
+} */
+
+
+
 #splash{
     height: 100%;
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     z-index: 2;
     position: absolute;
     top: 0px;
@@ -9,4 +15,51 @@
     /* display: inline-block; */
     margin: 0 auto;
     padding: 400px 0;
+    background: linear-gradient(45deg, rgba(194, 180, 234, 1), rgba(125, 97, 186, 1), rgba(90, 151, 206, 1), rgba(68, 103, 161, 1));
+    animation: gradient 50s ease infinite;
+    background-size: 400% 400%;
+}
+
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes gradient{
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.character{
+    font-size: 50px;
+}
+
+
+
+
+
+#header{
+    /* background-color: blue; */
+
+}
+
+
+
+body{
+    background-image: url("../images/night_ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: yellow;
 }
