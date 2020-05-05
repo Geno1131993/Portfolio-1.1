@@ -12,9 +12,39 @@ $("#splash").on("click", function(){
 
 
 
-create_splash();
+$("#portfolio").on("click", function(){
+    let new_window = window.open("portfolio.html", "_blank");
+    if(new_window){
+        new_window.focus();
+    }
+    else{
+        alert("Opening new window failed.");
+    }
+});
 
 
+$("#contact").on("click", function(){
+    let new_window = window.open("contact.html", "_blank");
+    if(new_window){
+        new_window.focus();
+    }
+    else{
+        alert("Opening new window failed.");
+    }
+});
+
+
+
+
+$("#profile").on("click", function(){
+    let new_window = window.open("profile.html", "_blank");
+    if(new_window){
+        new_window.focus();
+    }
+    else{
+        alert("Opening new window failed.");
+    }
+}
 
 function wait(seconds){
     setTimeout(seconds * 1000);
@@ -56,3 +86,9 @@ function fade_splash(){
         $("#splash").remove();
     });
 }
+
+
+
+create_splash();
+
+
