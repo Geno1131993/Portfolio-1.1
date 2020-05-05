@@ -44,7 +44,7 @@ $("#profile").on("click", function(){
     else{
         alert("Opening new window failed.");
     }
-}
+});
 
 function wait(seconds){
     setTimeout(seconds * 1000);
