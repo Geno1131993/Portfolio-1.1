@@ -57,9 +57,6 @@
 
 
 body{
-    background-image: url("../images/night_ocean.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: yellow;
+    background: url("../images/night_ocean.jpg") repeat 0 0;
+    
 }
