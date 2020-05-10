@@ -2,14 +2,14 @@
     background-color: rgba(0,0,0,0);
 } */
 
-/* 
+
 
 #splash{
     height: 100%;
     width: 100%;
     background-color: yellow;
     z-index: 2;
-    position: absolute;
+    position: fixed;
     top: 0px;
     text-align: center;
     display: inline-block;
@@ -18,6 +18,7 @@
     background: linear-gradient(45deg, rgba(194, 180, 234, 1), rgba(125, 97, 186, 1), rgba(90, 151, 206, 1), rgba(68, 103, 161, 1));
     animation: gradient 50s ease infinite;
     background-size: 400% 400%;
+    margin: auto;
 }
 
 
@@ -38,7 +39,6 @@
 		background-position: 0% 50%;
 	}
 }
- */
 
 
 .character{
@@ -58,5 +58,11 @@
 
 body{
     background: url("../images/night_ocean.jpg") repeat 0 0;
-
+    height: 100vh;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: auto;
 }
